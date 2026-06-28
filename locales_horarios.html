@@ -13,7 +13,7 @@
     <header id="header">
         <h1>LOCALES Y HORARIOS</h1>
     </header>
-        <nav>
+        <nav class="menu_navegacion">
             <ul>
                 <li><a href="index.html">Homepage</a></li>
                 <li><a href="carta_digital.html">Carta_digital</a></li>
@@ -25,65 +25,104 @@
     <main>
         <section>
         <h2>CONOCE NUESTROS LOCALES</h2>
-            <article>
-                <h3>SURCO</h3>
-                <img src="imagenes/surcoc.jpg" alt="ingreso a panaderia, con puertas verdes" title="Surco">
-                <p class="parrafo"> 
-                    <span class="locales">Av. Encalada 002</span><br><br>
-                    Horario de Atención <br>
-                    Lunes a Viernes de 8:00 am a 8:00 pm <br>
-                    Domingo de 8:00 am a 6:00 pm </p>
-            </article>
-            <article>
-                <h3>MIRAFLORES</h3>
-                <img src="imagenes/mirafloresc.jpg" alt="imagen nocturna de ciudad con vista al mar" title="Miraflores">
-                <p class="parrafo">
-                    <span class="locales">Av. Angamos Oeste 082</span><br><br>
-                    Horario de Atención <br>
-                    Lunes a Viernes de 8:00 am a 8:00 pm <br>
-                    Domingo de 8:00 am a 6:00 pm 
-                </p>
-            </article>
-            <article>
-                <h3>MAGDALENA DEL MAR</h3>
-                <img src="imagenes/magdalena_marc.jpg" alt="estante con kekes, cupcakes y torta varias" title="Magadalena">
-                <p class="parrafo"> 
-                    <span class="locales">Ca. Roca Vergallo 103</span><br><br>
-                    Horario de Atención <br>
-                    Lunes a Viernes de 8:00 am a 8:00 pm <br>
-                    Domingo de 8:00 am a 6:00 pm 
-                </p>
-            </article>
-            <article>
-                <h3>SAN ISIDRO</h3>
-                <img src="imagenes/san_isidro.jpg" alt="puerta de vidrio de ingreso a panaderia" title="san_isidro">
-                <p class="parrafo">
-                    <span class="locales">Ca. Amador Merino Reyna 845</span><br><br>
-                    Horario de Atención <br>
-                    Lunes a Viernes de 8:00 am a 8:00 pm <br>
-                    Domingo de 8:00 am a 6:00 pm 
-                </p>
-            </article>
-            <article>
-                <h3>LA MOLINA</h3>
-                <img src="imagenes/la_molina.jpg" alt="panes en mostradores de vidrio" title="la_molina">
-                <p class="parrafo">
-                    <span class="locales">Av. Raul Ferrero 653</span><br><br>
-                    Horario de Atención <br>
-                    Lunes a Viernes de 8:00 am a 8:00 pm <br>
-                    Domingo de 8:00 am a 6:00 pm 
-                </p>
-            </article>
-            <article>
-                <h3>SAN BORJA</h3>
-                <img src="imagenes/san_borja.jpg" alt="fachada de panaderia con luz calida" title="San_Borja">
-                <p class="parrafo"> 
-                    <span class="locales">Av. Primavera 784</span><br><br>
-                    Horario de Atención <br>
-                    Lunes a Viernes de 8:00 am a 8:00 pm <br>
-                    Domingo de 8:00 am a 6:00 pm 
-                </p>
-            </article>
+            <div class="contenedor">
+                <article class="tarjeta">
+                    <h3>SURCO</h3>
+                    <div class="contenedor-pet">
+                        <img src="imagenes/surcoc.jpg" alt="ingreso a panaderia, con puertas verdes" title="Surco" class="foto-local">
+                        <img src="imagenes/petfriendly.png" alt="sello pet friendly" class="sello-pet">
+                    </div>
+                    <div class="tarjeta-info">
+                        <h4>Av. Encalada 002 </h4> 
+                        <p>Horario de Atención</p>
+                        <p>Lunes - Viernes de 8:00 am a 8:00 pm</p>
+                        <p>Domingo de 8:00 am a 6:00 pm</p>
+                        <div class="tarjeta-pie">
+                            <button type="button" id="button">Ubicacion</button>
+                        </div>
+                    </div>    
+                </article>
+                <article class="tarjeta">
+                    <h3>MIRAFLORES</h3>
+                    <div class="contenedor-pet">
+                        <img src="imagenes/mirafloresc.jpg" alt="imagen nocturna de ciudad con vista al mar" title="Miraflores" class="foto-local">
+                        <img src="imagenes/petfriendly.png" alt="sello pet friendly" class="sello-pet">
+                    </div>
+                    <div class="tarjeta-info">
+                        <h4>Av. Angamos Oeste 082</h4> 
+                        <p>Horario de Atención</p>
+                        <p>Lunes - Viernes de 8:00 am a 8:00 pm</p>
+                        <p>Domingo de 8:00 am a 6:00 pm</p>
+                        <div class="tarjeta-pie">
+                            <button type="button" id="button">Ubicacion</button>
+                        </div>
+                    </div>
+                </article>
+               <article class="tarjeta">
+                    <h3>MAGDALENA DEL MAR</h3>
+                    <div class="contenedor-pet">
+                        <img src="imagenes/magdalena_marc.jpg" alt="estante con kekes, cupcakes y torta varias" title="Magadalena" class="foto-local">
+                        <img src="imagenes/petfriendly.png" alt="sello pet friendly" class="sello-pet">
+                    </div>
+                    <div class="tarjeta-info">
+                        <h4>Ca. Roca Vergallo 103 </h4>    
+                        <p>Horario de Atención</p>
+                        <p>Lunes - Viernes de 8:00 am a 8:00 pm</p>
+                        <p>Domingo de 8:00 am a 6:00 pm</p>
+                        <div class="tarjeta-pie">
+                            <button type="button" id="button">Ubicacion</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <h3>SAN ISIDRO</h3>
+                    <div class="contenedor-pet">
+                        <img src="imagenes/san_isidro.jpg" alt="puerta de vidrio de ingreso a panaderia" title="san_isidro" class="foto-local">
+                        <img src="imagenes/petfriendly.png" alt="sello pet friendly" class="sello-pet">
+                    </div>
+                    <div class="tarjeta-info">
+                        <h4>Ca. Amador Merino Reyna 845 </h4>    
+                        <p>Horario de Atención</p>
+                        <p>Lunes - Viernes de 8:00 am a 8:00 pm</p>
+                        <p>Domingo de 8:00 am a 6:00 pm</p>
+                        <div class="tarjeta-pie">
+                            <button type="button" id="button">Ubicacion</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <h3>LA MOLINA</h3>
+                    <div class="contenedor-pet">
+                        <img src="imagenes/la_molina.jpg" alt="panes en mostradores de vidrio" title="la_molina" class="foto-local">
+                        <img src="imagenes/petfriendly.png" alt="sello pet friendly" class="sello-pet">
+                    </div>
+                    <div class="tarjeta-info">
+                        <h4>Av. Raul Ferrero 653 </h4>    
+                        <p>Horario de Atención</p>
+                        <p>Lunes - Viernes de 8:00 am a 8:00 pm</p>
+                        <p>Domingo de 8:00 am a 6:00 pm</p>
+                        <div class="tarjeta-pie">
+                            <button type="button" id="button">Ubicacion</button>
+                        </div>
+                    </div>
+                </article>
+                <article class="tarjeta">
+                    <h3>SAN BORJA</h3>
+                    <div class="contenedor-pet">
+                        <img src="imagenes/san_borja.jpg" alt="fachada de panaderia con luz calida" title="San_Borja" class="foto-local">
+                        <img src="imagenes/petfriendly.png" alt="sello pet friendly" class="sello-pet">
+                    </div>
+                    <div class="tarjeta-info">
+                        <h4>Av. Primavera 784 </h4>    
+                        <p>Horario de Atención</p>
+                        <p>Lunes - Viernes de 8:00 am a 8:00 pm</p>
+                        <p>Domingo de 8:00 am a 6:00 pm</p>
+                        <div class="tarjeta-pie">
+                            <button type="button" id="button">Ubicacion</button>
+                        </div>
+                    </div>
+                </article>
+            </div>
         </section>
     </main>
     <footer>

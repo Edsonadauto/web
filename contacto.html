@@ -11,9 +11,9 @@
 </head>
 <body>
     <header id="header">
-        <h2>CENTRO DE CONTACTO</h2>
+        <h1>CENTRO DE CONTACTO</h1>
     </header>
-        <nav>
+        <nav class="menu_navegacion">
             <ul>
                 <li><a href="index.html">Homepage</a></li>
                 <li><a href="carta_digital.html">Carta Digital</a></li>
@@ -23,45 +23,56 @@
             </ul>
         </nav>
     <main>
-        <section>
-            <p>
-                Si tienes alguna duda y deseas comunicarte con nosotros por favor completa el siguiente formulario y te responderemos a la brevedad.
-                También te puedes comunicar con nosotros al correo: ejemplo@zegel.pe <br>
-                Para hacer tus pedidos o llamarnos al: 000000 <br>
-                Visita nuestros locales.
-            </p>
-            
-            <h2>FORMULARIO DE DATOS</h2>
-            <form>
+        <section class="contacto">
+            <div class="contenedor-form">
                 <div>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" placeholder="Ingresa nombre" id="nombre" required>
-                </div><br><br>
-                <div>
-                    <label for="telefono">Telefono:</label>
-                    <input type="tel" placeholder="Ingresa Telefono" id="telefono" required>
-                </div><br><br>
-                <div>
-                    <label for="email">Email:</label>
-                    <input type="email" placeholder="Ingresa Correo" id="email" required>
-                </div><br><br>
-                <div>
-                    <label for="empresa">Empresa:</label>
-                    <input type="text" placeholder="Empresa" id="empresa">
-                </div><br><br>
-                <div>
-                    <label for="mensaje">MENSAJE:</label><br><br>
-                    <textarea name="" placeholder="Ingresa tu pedido" id="mensaje" cols="58" rows="10"></textarea>
-                </div><br>
-                <div>
-                    <button type="reset">
-                        <span>Limpiar</span>
-                    </button>
-                    <button type="submit">
-                        <span>Enviar</span>
-                    </button>
+                    <h2>ESTAMOS AQUI PARA TI</h2>
+                    <p>
+                        Si tienes alguna duda y deseas comunicarte con nosotros por favor completa el siguiente formulario y te responderemos a la brevedad.
+                    </p>
+                    <p>
+                        También te puedes comunicar con nosotros al correo: ejemplo@zegel.pe
+                    </p>
+                    <p>
+                        Para hacer tus pedidos o llamarnos al: 000000000
+                    </p>
+                    <p>
+                        Visita nuestros locales.
+                    </p>
                 </div>
-            </form>
+                <form>
+                    <div class="campos-form">
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" placeholder="Ingresa nombre" id="nombre" required>
+                        </div>
+                        <div>
+                            <label for="telefono">Telefono:</label>
+                            <input type="tel" placeholder="Ingresa Telefono" id="telefono" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" placeholder="Ingresa Correo" id="email" required>
+                        </div>
+                        <div>
+                            <label for="empresa">Empresa:</label>
+                            <input type="text" placeholder="Empresa" id="empresa">
+                        </div>
+                    </div>
+                    <div class="mensaje-form">
+                            <label for="mensaje">MENSAJE:</label>
+                            <textarea name="" placeholder="Ingresa tu pedido" id="mensaje" cols="58" rows="10"></textarea>
+                    </div>
+                    <div class="boton-form">
+                        <button type="reset">
+                            <span>Limpiar</span>
+                        </button>
+                        <button type="submit">
+                            <span>Enviar</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </section>
     </main>
     <footer>
