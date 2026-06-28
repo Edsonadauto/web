@@ -1,0 +1,104 @@
+body {
+    font-family:"open_sans" ,lato;
+    background-color: #FAF6F0;
+}
+
+#header {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    font-size: 0.875rem;
+    text-decoration: none
+}
+
+h1 {
+    font-size: 2rem;
+    color: #5A4533
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #5A4533
+}
+
+h3 {
+    font-size: 1.1rem;
+    color: #5A4533
+}
+
+h4 {
+    font-size: 1rem;
+    color: #5A4533
+}
+
+p {
+    font-size: 1rem;
+    color:#9E7A5C
+}
+
+#button {
+    background-color: #BC949F;
+    color: #FFFFFF;
+    font-weight: bold;
+    border: none;
+    font-size: 0.8rem;
+    
+}
+
+footer {
+    background-color: #9E7A5C;
+    padding: 30px 24px;
+    margin-top: 40px;
+}
+
+footer h2 {
+    background-color: #FAF6F0;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #FAF6F0;
+    font-size: 0.9rem;
+}
+
+.precio {
+    color: #5A4533;
+    font-weight: bold
+}
+
+.locales { 
+    color: #5A4533;
+    font-weight: bold
+}
+table {
+    width: 100%;
+    max-width: 850px;
+    margin: 30px;
+    border-collapse: collapse;
+    background-color: transparent;
+}
+
+tr {
+    border-bottom: 1px solid rgba(156, 124, 95, 0.2);
+}
+
+td {
+    padding: 20px 15px;
+}
+.preguntas {
+    color: #9C7C5F;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+.respuestas {
+    color: #5A4533;
+    font-size: 1rem;
+}
